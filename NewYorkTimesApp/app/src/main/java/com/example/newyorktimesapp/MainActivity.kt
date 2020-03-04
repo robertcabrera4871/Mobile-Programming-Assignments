@@ -110,7 +110,7 @@ class MainActivity : AppCompatActivity() {
         }
         private fun setTextView(myJson: JSONObject) {
             try {
-                Log.e("FUCK", myJson.toString())
+              //  Log.e("FUCK", myJson.toString())
                 val irony = myJson.getString("irony")
                 val scoreTag = myJson.getString("score_tag")
                 val confidence = myJson.getString("confidence")
